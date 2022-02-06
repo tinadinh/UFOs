@@ -1,13 +1,13 @@
 # UFOs
-## Overview of Project: Explain the purpose of this analysis.
+## Overview of Project: the purpose of this analysis.
 The purpose of this project is to learn how to take data that is stored as a JavaScript array or list and to also, create a clean webpage that contains a dynamic table of UFO sighting data that organizes and displays the information. The results can be filtered by the end user based on the user's input with various criterias and instantly see the table. We've designed this table using Javascript as the primary coding language. Finally, we use HTML, Bootstrap and CSS to read the Javascript code and create a webpage that is easy to view, includes filters, images, and a synopsis of the topic.
 
-### Resources
+#### Resources
 - Data Source: data.js
 - Software: E6+, Javascript, HTML, CSS, Bootstrap, D3
 
-## Results: Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
-This webpage helps others access information of reported sightings and see for themselves. 
+## Results:
+This webpage helps users access information of reported sightings and see the data. 
 
 This webpage includes:
 - A description or summary of the topic
@@ -16,12 +16,12 @@ This webpage includes:
 
 ![UFOs](https://user-images.githubusercontent.com/33900637/152670333-c8ec8563-8625-4e90-b042-76b2a644e265.png)
 
-You will notice that a "Filter Search" section has been added above the photo. The user will be able to enter date, location, and/or descriptive data to filter the data table see the results that match their criteria. You can filter by one or all of the search criteria such as:
+In the above photo, you will notice there's a "Filter Search" section. The user will be able to enter date, location, and/or descriptive data to filter the data table see the results that match their criteria. You can filter by one or more of the search criteria such as:
 - If you search by "City", you will see that the table updated to show the reported sightings that was recorded for that specific city.
 - If you add a shape, the table will update filtering further to only display the information containing that shape.
 - Or if you delete your previous entries and enter "State" and "Shape", the table will update using your new criteria.
 
-## Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
+## Summary:
 #### Drawback:
 Unfortunately, the webpage's major drawback is that the search field is "case-sensitive". The table will not update if you do not enter exactly how the data is stored and does not allow for partial entries. This is an issue because it does not intuitively tell the user how the information should be entered other than the "default" example shown. This can impact the user experience because all of the searchable data is lowercase. For example, if a user were to enter "CA" to identify the UFO sightings in California, the filter search results are zero. Whereas, if they were to enter "ca" in lower case, there are plenty of results.
 
